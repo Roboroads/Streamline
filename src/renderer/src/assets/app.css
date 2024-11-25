@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply w-screen h-screen fixed;
+  background-color: theme(colors.gray.900);
+}
+
+@tailwind utilities;
