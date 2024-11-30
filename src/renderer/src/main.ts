@@ -1,4 +1,4 @@
-import './assets/app.css';
+import './assets/app.pcss';
 
 import App from './App.svelte';
 import { mount } from 'svelte';
@@ -8,4 +8,3 @@ const app = mount(App, {
 });
 
 export default app;
-
